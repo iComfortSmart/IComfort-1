@@ -19,6 +19,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <meta-data android:name="com.rollbar.android.ACCESS_TOKEN"
+            android:value="8a5c41c11e9b48a78e961712974baea2" />
     </application>
 
 </manifest>

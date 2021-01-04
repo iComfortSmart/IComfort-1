@@ -23,6 +23,15 @@
         android:text="@string/next"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textview_first" />
+
+    <TimePicker
+        android:id="@+id/timePicker1"
+        style="@android:style/Widget.Material.Light.TimePicker"
+        android:layout_width="415dp"
+        android:layout_height="353dp"
+        tools:layout_editor_absoluteX="-20dp"
+        tools:layout_editor_absoluteY="51dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
